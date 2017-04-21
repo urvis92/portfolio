@@ -1,0 +1,48 @@
+a{
+ color:#929292;
+}
+  .menubar{
+  max-width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding:50px;
+}
+
+.links{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 26px;
+  color:#929292;
+  text-decoration: none;
+}
+
+.textbox{
+  max-width:80%;
+  margin:100px;
+  background-color:#ffca14;
+padding:100px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  text-align:center;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+max-width:100%;
+margin-top: 10px;
+padding-left: 10%;
+padding-right: 10%;
+}
+.social{
+  width: 10%;
+  float:right;
+  display:flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.socialicons:hover{
+  color:#ffca14;
+}

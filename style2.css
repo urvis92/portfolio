@@ -1,0 +1,210 @@
+.navigation{
+  display: flex;
+flex-direction: row;
+flex-flow: row wrap;
+justify-content: space-between;
+  width:45%;
+  margin-left:27.5%;
+  margin-right:27.5%;
+}
+
+a{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#929292;
+  text-decoration: none;
+}
+.header{
+  width: 100%;
+     height: auto;
+     max-width: 100%;
+     max-height: 100%;
+     margin-top:10px;
+}
+.main{
+  display:flex;
+  flex-direction:row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  max-width:100%;
+  margin-left:5%;
+  margin-right:5%;
+  padding:10px;
+}
+
+.picture{
+  width:100%;
+  padding:8px;
+
+}
+.hovertext{
+  font-size: 30px;
+  visibility:hidden;
+  text-align:center;
+  vertical-align: middle;
+  color: black;
+  z-index:100;
+  position: absolute;
+  top: 20%;left:20%;
+}
+
+.links{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#929292;
+  text-decoration: none;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+max-width:100%;
+margin-top: 120px;
+padding:50px;
+}
+.social{
+  width: 13%;
+  float:right;
+  display:flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.socialicons:hover{
+  color:#ffca14;
+}
+.socialicons before:hover{
+  color:#black;
+}
+/*.box:hover{
+  opacity:0.4;
+}
+.box:hover .hovertext{
+  visibility: visible;
+}*/
+
+
+/*.box2{
+  width: 28.33%;
+  height: 300px;
+  color: black;
+  background-image: url(halloween.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.box3{
+  width: 28.33%;
+  height: 300px;
+  color: black;
+  background-image: url(halloween.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}*/
+@media only screen and (max-width: 1250px){
+  .main{
+    max-width:90%;
+    margin-left:10%;
+    margin-right:10%;
+  }
+}
+@media only screen and (max-width: 1025px) {
+.main{
+  max-width:90%;
+  padding:0;
+}
+.picture{
+  width:100%;
+padding:0;
+  margin:5px;
+}
+}
+@media only screen and (max-width: 955px) {
+.main{
+  max-width:100%;
+  margin-left:5%;
+  margin-right:5%;
+}
+.picture{
+  width:90%;
+  padding:10px;
+}
+.social{
+  width:15%;
+}
+}
+@media only screen and (max-width: 880px) {
+.main{
+  max-width:100%;
+  margin-left:2%;
+  margin-right:2%;
+}
+.picture{
+  width:100%;
+  margin:3px;
+
+}
+
+}
+@media only screen and (max-width: 810px) {
+.main{
+  max-width:100%;
+  margin-left:2%;
+  margin-right:2%;
+padding: 5px;
+}
+.picture{
+  width:60%;
+  margin:3px;
+}
+.social{
+  width:15%;
+}
+}
+@media only screen and (max-width: 640px) {
+  .main{
+    max-width:90%;
+    margin-left:5%;
+    margin-right:5%;
+
+.picture{
+  width:100%;
+}
+.social{
+  width:25%;
+}
+}
+
+@media only screen and (max-width: 450px) {
+   .navigation{
+    visibility: hidden;
+  }
+  .main{
+  max-width: 100%;
+    flex-direction:column;
+  }
+  .picture{
+    width:100%;
+  padding:8px;
+
+}
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+max-width:100%;
+  margin-top: 100px;
+
+  }
+.social{
+
+  padding-top:20px;
+  width:50%;
+  float: none;
+    justify-content: space-between;
+  align-items: center;
+}
+.links{
+
+}
+
+}

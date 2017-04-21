@@ -1,0 +1,87 @@
+a{
+  color:#929292;
+}
+.menubar{
+  max-width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding:50px;
+}
+
+.links{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 26px;
+  color:#929292;
+  text-decoration: none;
+}
+
+.contactlink{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#929292;
+  text-decoration: none;
+}
+#maintitle{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 48px;
+  color:#929292;
+  margin-top: 10%;
+  margin-bottom: 20px;
+  text-align:center;
+}
+#subtitle{
+  font-family: 'Roboto', sans-serif;
+  color:#ffca14;
+  text-align:center;
+}
+
+.largeImage{
+  width:90%;
+height: auto;
+margin:auto;
+margin-top: 20px;
+padding:5%;
+}
+.descriptions{
+    font-family: 'Roboto', sans-serif;
+  color:#black;
+  font-size:16px;
+  line-height: 25px;
+  max-width:75%;
+  text-align:center;
+  padding-right:12.5%;
+  padding-left:12.5%;
+}
+.twoimages{
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-top: 20px;
+  padding-right:5%;
+  padding-left:5%;
+}
+.smallimages{
+  width:45%;
+
+margin:auto;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+max-width:100%;
+margin-top: 100px;
+padding:50px;
+}
+.social{
+  width: 10%;
+
+  float:right;
+  display:flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.socialicons:hover{
+  color:#ffca14;
+}
