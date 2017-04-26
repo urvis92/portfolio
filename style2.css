@@ -15,9 +15,10 @@ justify-content: space-between;
   color:#929292;
   text-decoration: none;
 }
-a{
+.images{
   display:block;
-
+width:30%;
+padding:15px;
 }
 .header{
   max-width: 100%;
@@ -37,7 +38,7 @@ a{
 }
 .picture{
 width:100%;
-  padding:8px;
+
 
 }
 .hovertext{
