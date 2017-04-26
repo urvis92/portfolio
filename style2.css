@@ -1,4 +1,5 @@
-.navigation{
+
+  .navigation{
   display: flex;
 flex-direction: row;
 flex-flow: row wrap;
@@ -8,14 +9,18 @@ justify-content: space-between;
   margin-right:35%;
 }
 
-a{
+.menuNames{
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
   color:#929292;
   text-decoration: none;
 }
+a{
+  display:block;
+
+}
 .header{
-  width: 100%;
+  max-width: 100%;
      height: auto;
      max-width: 100%;
      max-height: 100%;
@@ -23,17 +28,15 @@ a{
 }
 .main{
   display:flex;
-
   flex-flow: wrap;
   justify-content: space-between;
-  max-width:100%;
+  max-width:90%;
   margin-left:5%;
   margin-right:5%;
   padding:10px;
 }
-
 .picture{
-  width:100%;
+width:100%;
   padding:8px;
 
 }
@@ -121,9 +124,7 @@ color: #58595b;
   background-size: contain;
 }*/
 @media only screen and (max-width: 1250px){
-  .main{
-    margin:0 0;
-  }
+
   .footer{
     padding:0 3%;
     padding-top: 16px;
@@ -136,22 +137,30 @@ color: #58595b;
 }
 @media only screen and (max-width: 950px) {
 .main{
+  max-width:100%;
   padding:0;
-
 }
-
+.picture{
+  width:80%;
+  padding:5px;
+}
 .contactinfo{
+  max-width:100%;
   width:17%;
 }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 790px) {
    .navigation{
     visibility: hidden;
   }
-
+.main{
+  max-width: 100%;
+  margin:0;
+}
   .picture{
     width:80%;
+    padding: 3px;
 
 
 }
@@ -163,14 +172,15 @@ color: #58595b;
     width:100%;
   }
   .main{
-    width:100%;
+    max-width:100%;
     margin:0 0;
   }
   .picture{
-    width:120%;
+    width:100%;
 
 }
 .footer{
+  max-width:100%;
   padding-top:10px;
   padding-right:20px;
   margin-top:20px;
@@ -179,12 +189,12 @@ color: #58595b;
   visibility: hidden;
 }
 .social{
-  width:20%;
+  width:25%;
   float:left;
   margin-left: -70%;
 }
 .contactinfo{
-  width:27%;
+  width:32%;
 
 }
 }
